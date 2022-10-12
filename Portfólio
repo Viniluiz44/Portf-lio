@@ -1,0 +1,189 @@
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <title>Portfólio</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #ab9455;
+      color: white;
+      padding: 0;
+      margin: 0;
+    }
+
+    header {
+      background-color: #4a3c16;
+      color: black;
+      width: 100vw;
+      height: 70px;
+      top: 0;
+      font-size: 30px;
+      text-align: relative;
+      opacity: 100%;
+
+
+    }
+
+    main {
+      background-color: #6e5b27;
+      width: 100%;
+      height: 800px;
+      top: 50%;
+      left: 50%;
+    }
+    .apresentaçao {
+      position: absolute;
+      text-align: left;
+      transform: translate(11vw, 15vh);
+      color: black;
+      font-size: 60px;
+
+    }
+
+    .image {
+      text-align: right;
+      position: absolute;
+      transform: translate(25vh, 18.2vw);
+      
+      animation-name: moviment;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-timing-function: ease-in-out;
+    }
+
+    .projetos {
+      background-color: #ab9455;
+      width: 100%;
+      height: 800px;
+      text-align: center;
+      font-size: 70px;
+      color: #4a3c16;
+      transform: translateY(3vh);
+    }
+
+    .contatos {
+      background-color: #6e5b27;
+      text-align: center;
+      height: 75px;
+      transform: translateY(20vh);
+      color: black;
+    }
+
+
+    .Calculadora {
+      transform: translate(10vw, 0px);
+      text-align: center;
+      color: black;
+      font-size: 50px;
+
+    }
+
+    .timer {
+      transform: translate(50vw, -15vh);
+      color: black;
+      font-size: 50px;
+      text-align: center;
+
+    }
+
+    .btn-github a {
+      text-decoration: none;
+      color: black;
+    }
+
+    .btn-github {
+      font-size: 50px;
+      background-color: #ab9455;
+      border: 4px solid #4a3c16;
+      transform: translate(8px, 0.4em)
+    }
+
+    .btn-linkedin a {
+      font-size: 45px;
+      background-color: #ab9455;
+      text-decoration: none;
+      color: black;
+    }
+
+    .btn-linkedin {
+      border: 4px solid  #4a3c16;
+      transform: translate(1em, 1.4em)
+    }
+    
+    @keyframes moviment {
+    0%{
+      transform:translate(25vh,18.2vw)
+    }
+    50%{
+      transform:translate(25vh,20.2vw)  
+    }
+    100%{
+      transform: translate(25vh,16.6vw)
+    }
+    }
+  </style>
+
+</head>
+<div>
+
+  <body>
+    <header>Cabeçalho</header>
+    <hr>
+    <main>
+      <h2 class="apresentaçao"> Olá, eu sou
+        <br>
+        Vinicius Luiz
+        <br>
+        Front-end Dev
+        <br>
+        <button class="btn-github"><a href="https://github.com">
+            <font>
+              Github
+        </button></a></font>
+
+        <button class="btn-linkedin"><a href="https://linkedin.com">
+            <font>
+              Linkedin
+        </button></a></font>
+      </h2>
+
+      <div class="image">
+        <img src="/fotos/Eu.png" width="500px">
+    </main>
+</div>
+<hr>
+
+<div class="projetos">
+  <p>
+  <h2>Projetos</h2>
+  <table>
+    <tr>
+      <td class="Calculadora">calculadora<a href="https://google.com">
+          <br><img src="/fotos/calculadora.png" < width="300px"></td></a>
+    </tr>
+    <tr>
+      <td class="timer">
+        
+        Cronômetro
+        <br>
+        <img src="/fotos/timer.png" width="350px">
+      </td>
+    </tr>
+  </table>
+  </p>
+</div>
+<hr>
+<p>
+  <hr>
+<h3 class="contatos">
+  <hr>Contatos:
+  <p>Osvinis10@gmail.com</p>
+</h3>
+</p>
+</div>
+</body>
