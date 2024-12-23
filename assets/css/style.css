@@ -532,6 +532,10 @@ a {
     position: absolute;
 }
 
+.minha-foto{
+    border-radius: 30%;
+}
+
 .complemento-sobre {
     width: auto;
     z-index: 0;
